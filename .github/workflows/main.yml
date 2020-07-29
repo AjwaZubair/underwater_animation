@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./underwaterAnimDolphin.surge.sh/  --token ${{secrets.SURGE-TOKEN}}
+      run: surge ./dolphinAnimationAJ.surge.sh/  --token ${{secrets.SURGE-TOKEN}}
